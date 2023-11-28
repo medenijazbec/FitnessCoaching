@@ -1,0 +1,76 @@
+﻿Razredi in njihove funkcionalnosti:
+User:
+
+Shranjevanje uporabniških informacij in avtentikacijskih podatkov.
+Upravljanje uporabniških nastavitev in preferenc.
+Trainer:
+
+Shranjevanje podatkov o trenerjih, vključno z njihovimi specializacijami in razpoložljivostjo.
+Vodenje evidenc trenerjevih kvalifikacij in izkušenj.
+Appointment:
+
+Rezervacija terminov za vadbo.
+Spremembe, odpovedi in preverjanje konfliktov terminov.
+WorkoutSession:
+
+Upravljanje podatkov o posamezni vadbeni seji.
+Povezava z izbranimi vajami in ciljnimi mišičnimi skupinami.
+Exercise:
+
+Shranjevanje informacij o posameznih vajah.
+Povezava vaj z mišičnimi skupinami in programi vadbe.
+MuscleGroup:
+
+Kategorizacija vaj po ciljnih mišičnih skupinah.
+Sledenje napredku po mišičnih skupinah.
+TrainingProgram:
+
+Upravljanje sestavljenih vadbenih programov.
+Vključevanje mesociklov in makrociklov.
+ProgressTracker:
+
+Sledenje napredku uporabnika čez čas.
+Grafični prikazi napredka in primerjava ciljev.
+NutritionPlan:
+
+Upravljanje prehranskih načrtov in sledenje vnosa hrane.
+Povezava s cilji uporabnikov in priporočili trenerjev.
+Membership:
+
+Upravljanje članstev in plačil.
+Dodeljevanje dostopov do različnih storitev glede na članstvo.
+Funkcionalnosti aplikacije:
+Registracija in Prijava:
+
+Omogočanje registracije novih uporabnikov in prijave v sistem.
+Izbira Trenerja:
+
+Iskanje trenerjev po specializaciji.
+Rezervacija sestankov ali vadbenih sej z izbranim trenerjem.
+Upravljanje Termini:
+
+Vpogled v urnik razpoložljivih terminov.
+Možnost rezervacije, spremembe ali odpovedi termina.
+Sledenje Vadbenih Programov:
+
+Dostop do personaliziranih vadbenih programov.
+Sledenje in zapisovanje rezultatov posameznih vadb.
+Analiza Napredka:
+
+Vizualizacija napredka skozi čas.
+Sledenje telesnim meram in drugim kazalcem zdravja.
+Prehranski Načrti:
+
+Upravljanje dnevnega vnosa kalorij in hranil.
+Povezava s cilji za izgubo teže ali pridobivanje mišične mase.
+Integracija s Strojno Opremo:
+
+Spremljanje srčnega utripa, prevoženih kilometrov, porabljenih kalorij preko pametnih naprav.
+Obveščanje in Opomniki:
+
+Pošiljanje obvestil o bližajočih se terminih.
+Opomniki za dnevne vaje in prehranske načrte.
+Skupnost in Deljenje:
+
+Možnost deljenja napredka s prijatelji ali v skupnosti.
+Sodelovanje v izzivih in tekmovanjih.
