@@ -6,6 +6,7 @@ namespace Fitness.Classes
 {
     public class ProgressRecord
     {
+        public int Id { get; private set; }
         public DateTime Date { get; private set; }
         public string Notes { get; private set; }
         public Dictionary<string, double> Measurements { get; private set; } // Ključi so lahko 'Teža', 'Telesna maščoba', itd.

@@ -2,6 +2,7 @@
 {
     public class Exercise
     {
+        public int Id { get; private set; }
         public string Name { get; private set; }
         public MuscleGroup TargetMuscleGroup { get; private set; }
         public int Repetitions { get; private set; }

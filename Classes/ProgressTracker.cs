@@ -7,6 +7,7 @@ namespace Fitness.Classes
 {
     public class ProgressTracker
     {
+        public int Id { get; private set; }
         public User User { get; private set; }
         public List<ProgressRecord> ProgressRecords { get; private set; }
 

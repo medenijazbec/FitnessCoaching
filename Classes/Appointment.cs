@@ -4,6 +4,7 @@ namespace Fitness.Classes
     // Razred za termin vadbe
     public class Appointment
     {
+        public int Id { get; private set; }
         public DateTime StartDate { get; private set; }
         public DateTime EndDate { get; private set; }
         public string Description { get; private set; }
@@ -61,7 +62,7 @@ namespace Fitness.Classes
             EndDate = EndDate.Subtract(reductionTime);
         }
 
-        // ... dodajte še ostale metode in logiko po potrebi
+
     }
 }
 

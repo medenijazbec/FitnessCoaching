@@ -4,6 +4,7 @@ namespace Fitness.Classes
 {
     public class Membership
     {
+        public int Id { get; private set; }
         public DateTime StartDate { get; private set; }
         public DateTime EndDate { get; private set; }
         public User Member { get; private set; }

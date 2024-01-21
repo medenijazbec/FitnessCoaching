@@ -4,6 +4,7 @@ namespace Fitness.Classes
 {
     public class Schedule
     {
+        public int Id { get; private set; }
         public List<Appointment> Appointments { get; private set; }
 
         public Schedule()

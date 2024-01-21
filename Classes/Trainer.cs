@@ -6,6 +6,7 @@ namespace Fitness.Classes
 {
     public class Trainer
     {
+        public int Id { get; private set; }
         public string Name { get; private set; }
         public string Specialty { get; private set; }
         public int YearsOfExperience { get; private set; }

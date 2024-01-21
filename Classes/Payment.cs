@@ -4,6 +4,7 @@ namespace Fitness.Classes
 {
     public class Payment
     {
+        public int Id { get; private set; }
         public User Payer { get; private set; }
         public decimal Amount { get; private set; }
         public DateTime PaymentDate { get; private set; }

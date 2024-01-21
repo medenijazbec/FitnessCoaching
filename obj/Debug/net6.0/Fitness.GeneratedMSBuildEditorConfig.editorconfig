@@ -9,37 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Fitness
 build_property.RootNamespace = Fitness
-build_property.ProjectDir = C:\Users\matic\Desktop\FERI\2. letnik\RGIS\nal4\Fitness\
+build_property.ProjectDir = C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\matic\Desktop\FERI\2. letnik\RGIS\nal4\Fitness
+build_property.MSBuildProjectDirectory = C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/matic/Desktop/FERI/2. letnik/RGIS/nal4/Fitness/Pages/Error.cshtml]
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/Appointments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/DietItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlldEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/FERI/2. letnik/RGIS/nal4/Fitness/Pages/Index.cshtml]
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/FERI/2. letnik/RGIS/nal4/Fitness/Pages/Privacy.cshtml]
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/FERI/2. letnik/RGIS/nal4/Fitness/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/FERI/2. letnik/RGIS/nal4/Fitness/Pages/_ViewImports.cshtml]
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/FERI/2. letnik/RGIS/nal4/Fitness/Pages/_ViewStart.cshtml]
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/FERI/2. letnik/RGIS/nal4/Fitness/Pages/Shared/_Layout.cshtml]
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Views/DietItems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldEl0ZW1zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Views/DietItems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldEl0ZW1zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Views/DietItems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldEl0ZW1zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Views/DietItems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldEl0ZW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Views/DietItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldEl0ZW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Matic/Desktop/FERI/RGIS/nal5/Fitness/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ckn625521t

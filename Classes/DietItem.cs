@@ -2,13 +2,14 @@
 {
     public class DietItem
     {
+        public int Id { get; private set; }
         public string ItemName { get; private set; }
         public int Calories { get; private set; }
         public float Proteins { get; private set; } // Grams
         public float Carbohydrates { get; private set; } // Grams
         public float Fats { get; private set; } // Grams
         public DateTime MealTime { get; private set; }
-
+        public DietItem() { }
         public DietItem(string itemName, int calories, float proteins, float carbohydrates, float fats, DateTime mealTime)
         {
             if (calories < 0)

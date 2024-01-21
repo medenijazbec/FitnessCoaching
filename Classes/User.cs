@@ -8,6 +8,7 @@ namespace Fitness.Classes
 {
     public class User
     {
+        public int Id { get; private set; }
         private string username;
         private string passwordHash;
         private List<Appointment> appointments;

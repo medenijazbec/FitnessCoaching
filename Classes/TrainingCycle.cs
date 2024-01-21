@@ -7,6 +7,7 @@ namespace Fitness.Classes
 {
     public class TrainingCycle
     {
+        public int Id { get; private set; }
         public string CycleName { get; private set; }
         public List<TrainingProgram> TrainingPrograms { get; private set; }
 

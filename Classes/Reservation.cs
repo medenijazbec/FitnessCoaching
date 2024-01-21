@@ -2,6 +2,7 @@
 {
     public class Reservation
     {
+        public int Id { get; private set; }
         public User Member { get; private set; }
         public Appointment Appointment { get; private set; }
         public bool IsConfirmed { get; private set; }

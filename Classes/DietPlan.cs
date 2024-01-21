@@ -4,6 +4,7 @@ namespace Fitness.Classes
 {
     public class DietPlan
     {
+        public int Id { get; private set; }
         public string PlanName { get; private set; }
         public List<DietItem> DietItems { get; private set; }
 
