@@ -1,0 +1,28 @@
+name: .NET 6 CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Setup .NET 6
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0'
+
+    - name: Restore dependencies
+      run: dotnet restore Fitness.sln
+
+    - name: Build
+      run: dotnet build Fitness.sln --configuration Release --no-restore
+
+    - name: Run tests
+      run: dotnet test Fitness.sln --configuration Release --no-build
