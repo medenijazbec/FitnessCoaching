@@ -1,0 +1,70 @@
+﻿@page
+@model Fitness.Pages.ReservationModel
+@{
+    ViewData["Title"] = "Reservation";
+}
+
+<h2>Reservation</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="facilitySelect">Choose a facility:</label>
+        <select id="facilitySelect" asp-for="SelectedFacilityId" class="form-control">
+            @foreach (var facility in Model.Facilities)
+            {
+                <option value="@facility.Id">@facility.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="datetime-local" class="form-control" id="date" asp-for="AppointmentDate.Date"
+               required min="2024-01-01T00:00" value="2024-01-01T00:00" />
+    </div>
+
+    <div class="form-group">
+        <label for="appointmentTime">Time:</label>
+        <input type="time" id="appointmentTime" asp-for="AppointmentTime" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+
+
+<!--  
+@*
+@page
+@model Fitness.Pages.ReservationModel
+@{
+    ViewData["Title"] = "Reservation";
+}
+
+<h2>Reservation</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="facilitySelect">Choose a facility:</label>
+        <select id="facilitySelect" asp-for="SelectedFacilityId" class="form-control">
+            @foreach (var facility in Model.Facilities)
+            {
+                <option value="@facility.Id">@facility.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="appointmentDate">Date:</label>
+        <input type="date" id="appointmentDate" asp-for="AppointmentDate" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="appointmentTime">Time:</label>
+        <input type="time" id="appointmentTime" asp-for="AppointmentTime" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+*@
+-->
+

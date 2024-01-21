@@ -1,0 +1,87 @@
+﻿@page
+@model Fitness.Pages.ScheduleModel
+@{
+    ViewData["Title"] = "Weekly Schedule";
+}
+
+<h2>Weekly Schedule</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Time</th>
+            @for (var day = 0; day < 7; day++)
+            {
+                <th>@Model.StartOfWeek.AddDays(day).ToString("dddd")</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @for (var hour = 5; hour <= 22; hour++) // Assuming gym is open from 5AM to 10PM
+        {
+            <tr>
+                <td>@hour:00</td>
+                @for (var day = 0; day < 7; day++)
+                {
+                    var appointments = Model.WeeklySchedule.GetAppointmentsInRange(
+                    Model.StartOfWeek.AddDays(day).AddHours(hour),
+                    Model.StartOfWeek.AddDays(day).AddHours(hour + 1)
+                    ).ToList();
+
+                    <td>
+                        @foreach (var appointment in appointments)
+                        {
+                            <div>@appointment.Description (@appointment.StartDate.ToString("t") - @appointment.EndDate.ToString("t"))</div>
+                        }
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<!--
+@*
+@page
+@model Fitness.Pages.ScheduleModel
+@{
+    ViewData["Title"] = "Weekly Schedule";
+}
+
+<h2>Weekly Schedule</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < 24; i++) // 24 ur v dnevu
+        {
+            <tr>
+                @for (int j = 0; j < 7; j++) // 7 dni v tednu
+                {
+                    var currentDay = Model.StartOfWeek.AddDays(j);
+                    var appointmentsAtThisHour = Model.WeeklySchedule.GetAppointmentsInRange(currentDay.AddHours(i), currentDay.AddHours(i + 1));
+                    <td>
+                        @foreach (var appointment in appointmentsAtThisHour)
+                        {
+                            <div>@appointment.Description</div>
+                        }
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+*@
+-->
