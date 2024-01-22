@@ -134,9 +134,6 @@
             "projectReferences": {
               "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness.csproj": {
                 "projectPath": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness.csproj"
-              },
-              "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj": {
-                "projectPath": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj"
               }
             }
           }
@@ -169,7 +166,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.5, )"
+              "version": "[2.4.2, )"
             }
           },
           "imports": [

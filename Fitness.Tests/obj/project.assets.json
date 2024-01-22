@@ -4296,16 +4296,10 @@
           }
         }
       },
-      "xunit.runner.visualstudio/2.4.5": {
+      "xunit.runner.visualstudio/2.4.2": {
         "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/_._": {}
-        },
         "build": {
-          "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
+          "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
       "Fitness/1.0.0": {
@@ -11990,24 +11984,24 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
-    "xunit.runner.visualstudio/2.4.5": {
-      "sha512": "OwHamvBdUKgqsXfBzWiCW/O98BTx81UKzx2bieIOQI7CZFE5NEQZGi8PBQGIKawDW96xeRffiNf20SjfC0x9hw==",
+    "xunit.runner.visualstudio/2.4.2": {
+      "sha512": "Trt9multph2KE3U0p9oBt0k4Fq6lUv4btUcONaQEeuFnMCak2k/b7PAArbLtMFW7HO1jxlBHUgIPKEqci3Y1dg==",
       "type": "package",
-      "path": "xunit.runner.visualstudio/2.4.5",
+      "path": "xunit.runner.visualstudio/2.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "License.txt",
-        "build/net462/xunit.abstractions.dll",
-        "build/net462/xunit.runner.reporters.net452.dll",
-        "build/net462/xunit.runner.utility.net452.dll",
-        "build/net462/xunit.runner.visualstudio.props",
-        "build/net462/xunit.runner.visualstudio.testadapter.dll",
-        "build/netcoreapp3.1/xunit.abstractions.dll",
-        "build/netcoreapp3.1/xunit.runner.reporters.netcoreapp10.dll",
-        "build/netcoreapp3.1/xunit.runner.utility.netcoreapp10.dll",
-        "build/netcoreapp3.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll",
-        "build/netcoreapp3.1/xunit.runner.visualstudio.props",
+        "build/net452/xunit.abstractions.dll",
+        "build/net452/xunit.runner.reporters.net452.dll",
+        "build/net452/xunit.runner.utility.net452.dll",
+        "build/net452/xunit.runner.visualstudio.props",
+        "build/net452/xunit.runner.visualstudio.testadapter.dll",
+        "build/netcoreapp2.1/xunit.abstractions.dll",
+        "build/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll",
+        "build/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll",
+        "build/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll",
+        "build/netcoreapp2.1/xunit.runner.visualstudio.props",
         "build/uap10.0.16299/xunit.runner.reporters.netstandard15.dll",
         "build/uap10.0.16299/xunit.runner.utility.netstandard15.dll",
         "build/uap10.0.16299/xunit.runner.utility.uwp10.dll",
@@ -12016,11 +12010,8 @@
         "build/uap10.0.16299/xunit.runner.visualstudio.targets",
         "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.dll",
         "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.pri",
-        "lib/net462/_._",
-        "lib/netcoreapp3.1/_._",
-        "lib/uap10.0.16299/_._",
         "logo-512-transparent.png",
-        "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+        "xunit.runner.visualstudio.2.4.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
     },
@@ -12032,12 +12023,11 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj",
       "Fitness >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
-      "xunit.runner.visualstudio >= 2.4.5"
+      "xunit.runner.visualstudio >= 2.4.2"
     ]
   },
   "packageFolders": {
@@ -12078,9 +12068,6 @@
           "projectReferences": {
             "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness.csproj": {
               "projectPath": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness.csproj"
-            },
-            "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj": {
-              "projectPath": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj"
             }
           }
         }
@@ -12113,7 +12100,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.4.5, )"
+            "version": "[2.4.2, )"
           }
         },
         "imports": [
@@ -12135,16 +12122,5 @@
         "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
