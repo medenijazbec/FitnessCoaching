@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4SOT4UGk9MHQOFjInRyMnuRHx0x8VyxsfYSyHddQmNk7yTJd9j4sO7gLOrQ2vJoFTc87F9SqJMSvbqUvZZWLw==",
-  "success": true,
+  "dgSpecHash": "SMKCZAzsvyBmcyR6CsDLOsoX+fsYNsVz1rM1PRtJx7praSRolyC4IOX9Sux1gDg78PkO6ZlGoahQr5NwcgTNfw==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness.Tests\\Fitness.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matic\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
@@ -240,5 +240,15 @@
     "C:\\Users\\Matic\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\Matic\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

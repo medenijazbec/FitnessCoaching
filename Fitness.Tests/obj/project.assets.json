@@ -12032,6 +12032,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj",
       "Fitness >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "coverlet.collector >= 3.2.0",
@@ -12077,6 +12078,9 @@
           "projectReferences": {
             "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness.csproj": {
               "projectPath": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness.csproj"
+            },
+            "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj": {
+              "projectPath": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj"
             }
           }
         }
@@ -12131,5 +12135,16 @@
         "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Matic\\Desktop\\FERI\\RGIS\\nal5\\Fitness\\Fitness\\Fitness.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
