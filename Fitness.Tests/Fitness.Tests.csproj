@@ -22,8 +22,9 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Fitness.csproj" />
-  </ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="..\Fitness\Fitness.csproj" />
+</ItemGroup>
+
 
 </Project>
