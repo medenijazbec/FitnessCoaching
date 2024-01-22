@@ -20,9 +20,13 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore Fitness.sln
+      
+    - name: Clean build
+      run: dotnet clean Fitness.sln --configuration Release
 
     - name: Build
       run: dotnet build Fitness.csproj --configuration Release --no-restore
 
     - name: Run tests
       run: dotnet test Fitness.Tests/Fitness.Tests.csproj --configuration Release --no-build --no-restore
+      
