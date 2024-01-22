@@ -19,10 +19,10 @@ jobs:
         dotnet-version: '6.0.x' # Use .x to automatically use the latest patch version
 
     - name: Restore dependencies
-      run: dotnet restore Fitness/Fitness.sln
+    run: dotnet restore Fitness.sln
 
     - name: Build
-      run: dotnet build Fitness/Fitness.sln --configuration Release --no-restore
-
+    run: dotnet build Fitness.sln --configuration Release --no-restore
+    
     - name: Run tests
-      run: dotnet test Fitness/Fitness.sln --configuration Release --no-build
+    run: dotnet test Fitness.sln --configuration Release --no-build
