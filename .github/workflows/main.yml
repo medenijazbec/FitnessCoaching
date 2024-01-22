@@ -22,7 +22,7 @@ jobs:
       run: dotnet restore Fitness.sln
 
     - name: Build
-      run: dotnet build Fitness.sln --configuration Release --no-restore
+      run: dotnet build Fitness/Fitness.csproj --configuration Release --no-restore
 
     - name: Run tests
       run: dotnet test Fitness.Tests/Fitness.Tests.csproj --configuration Release --no-build --no-restore
