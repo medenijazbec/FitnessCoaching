@@ -37,8 +37,6 @@ C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\bin\Debug\net6.0\Fitness.runtimeco
 C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\bin\Debug\net6.0\Fitness.dll
 C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\bin\Debug\net6.0\Fitness.pdb
 C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\obj\Debug\net6.0\Fitness.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\obj\Debug\net6.0\Fitness.AssemblyInfoInputs.cache
-C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\obj\Debug\net6.0\Fitness.AssemblyInfo.cs
 C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\obj\Debug\net6.0\Fitness.csproj.CoreCompileInputs.cache
 C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\obj\Debug\net6.0\Fitness.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Matic\Desktop\FERI\RGIS\nal5\Fitness\obj\Debug\net6.0\Fitness.RazorAssemblyInfo.cache
