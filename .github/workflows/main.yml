@@ -16,7 +16,7 @@ jobs:
     - name: Setup .NET 6
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '6.0.x' # Use .x to automatically use the latest patch version
+        dotnet-version: '6.0.x' 
 
     - name: Restore dependencies
       run: dotnet restore Fitness.sln
