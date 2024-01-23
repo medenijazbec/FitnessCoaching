@@ -1,0 +1,35 @@
+﻿@page
+@model Fitness.Pages.MesocycleModel
+@{
+    ViewData["Title"] = "Weekly Workout Schedule";
+}
+
+<h2>Weekly Workout Schedule</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Duration</th>
+            <th>Difficulty</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var session in Model.WeeklyWorkoutSessions)
+        {
+            <tr>
+                <td>@session.StartTime.ToString("yyyy-MM-dd")</td>
+                <td>@session.Title</td>
+                <td>@session.Description</td>
+                <td>@session.Duration.TotalMinutes min</td>
+                <td>@session.Difficulty</td>
+                <td>@session.StartTime.ToString("HH:mm")</td>
+                <td>@session.EndTime.ToString("HH:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>

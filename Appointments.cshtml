@@ -1,0 +1,23 @@
+﻿@page
+@model Fitness.Pages.AppointmentsModel
+
+<h2>Appointments</h2>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Here are your upcoming appointments:</p>
+    <ul>
+        @foreach (var appointment in Model.Appointments)
+        {
+            <li>@appointment.Description - @appointment.StartDate.ToString("g") to @appointment.EndDate.ToString("g")</li>
+        }
+    </ul>
+</div>
+
+<script>
+    function saveAppointment(appointment) {
+        var appointments = JSON.parse(localStorage.getItem('appointments')) || [];
+        appointments.push(appointment);
+        localStorage.setItem('appointments', JSON.stringify(appointments));
+    }
+</script>
