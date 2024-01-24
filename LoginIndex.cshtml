@@ -1,0 +1,51 @@
+﻿@page
+@model Fitness.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<div class="container text-center">
+    <h1 class="display-4">Fitness</h1>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Fitness</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/User">Prijava</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Appointments">Poglej termine</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/DietItem">Kalkuliraj kalorije</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ProgressRecord">Sledi napredku</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Reservation">Rezerviraj termin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ScheduleModel">Urnik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/MesocycleModel">Mesocycle urnik</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
